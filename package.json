@@ -1,0 +1,35 @@
+{
+  "name": "whatsapp-gateway-rt-rw-net",
+  "version": "1.0.0",
+  "description": "WhatsApp Gateway with OLT & MikroTik Network Monitoring for RT RW Net",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "gateway",
+    "olt",
+    "mikrotik",
+    "monitoring",
+    "rt-rw-net"
+  ],
+  "author": "mrseh",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0",
+    "dotenv": "^16.3.1",
+    "snmp-native": "^1.1.1",
+    "routeros-client": "^2.0.0",
+    "node-cron": "^3.0.3",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
